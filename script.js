@@ -29,6 +29,12 @@ function convertValues() {
             currency: "GBP"
     }).format(inputCurrencyValue/libraToday)
     }
+    if(currencySelect.value == "real"){
+        currencyValueConverted.innerHTML = new Intl.NumberFormat("pr-BR", {
+            style: "currency",
+            currency: "BRL"
+    }).format(inputCurrencyValue/libraToday)
+    }
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
         style: "currency",
@@ -48,11 +54,11 @@ function changeCurrency(){
         currencyName.innerHTML = "Euro"
         currencyImage.src = "./assets/euro.png"
     }
-    
     if(currencySelect.value == "libra"){
         currencyName.innerHTML = "Libra"
         currencyImage.src = "./assets/libra.png"
     }
+    
     convertValues()
 }
 currencySelect.addEventListener("change", changeCurrency)

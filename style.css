@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #8a51fc;
+    background-color: rgb(224, 221, 221);
 }
 .logo {
     width: 200px;
@@ -40,6 +40,7 @@ select, input {
     font-size: 16px;
     color: #555555;
     cursor: pointer;
+    box-shadow: 4px 4px #d1d0d0;
 }
 input {
     width: 355px;
@@ -55,6 +56,7 @@ button {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+    box-shadow: 4px 4px #bdbcbe;
 }
 button:hover {
     opacity: 0.8;
