@@ -41,6 +41,10 @@ select, input {
     color: #555555;
     cursor: pointer;
 }
+input {
+    width: 355px;
+    height: 48px;
+}
 button {
     background: #772FD3;
     border-radius: 5px;
