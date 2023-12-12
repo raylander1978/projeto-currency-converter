@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(224, 221, 221);
+    background: url("https://source.unsplash.com/1600x900/?landscape");
 }
 .logo {
     width: 100px;
